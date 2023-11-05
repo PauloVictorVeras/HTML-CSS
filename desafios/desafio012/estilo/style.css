@@ -63,6 +63,10 @@ background-color: rgba(39, 23, 5, 0.791);
    font-size: 3vw
  }
 
+ section > p {
+  padding-bottom: 2em;
+ }
+
  section.normal {
    background-color: rgb(255, 255, 255);
  }
@@ -70,12 +74,34 @@ background-color: rgba(39, 23, 5, 0.791);
  section.imagem {
    background-color: rgba(37, 37, 36, 0.711);
    color: white;
+   background-size: cover;
+   background-attachment: fixed;
  } 
 
 section.imagem > p {
+   display: inline-block;
    background-color: rgba(83, 48, 9, 0.276);
    background-image: linear-gradient(to bottom, rgba(49, 48, 47, 0.275), rgb(83, 48, 9, 0.276));
-   width: 400px;
+   width: 30vw;
+   padding: 13px;
+   text-shadow: 2px 2px 0px black;
+}
+
+section#imagem01 {
+background-image: url(../imagens/background001.jpg);
+background-position: right center;
+
+}
+
+section#imagem02 {
+background-image: url(../imagens/background002.jpg);
+background-position: top right;
+
+}
+
+section#imagem03 {
+background-image: url(../imagens/background002.jpg);
+background-position: bottom right;
 }
 
 a:visited {
