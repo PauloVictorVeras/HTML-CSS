@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* Mobile First */
+body {
+    background-color: rgba(185, 185, 6, 0.863);
+    background-image: url(../imagens/back-phone.jpg);
+      background-size: cover;
+    width: 50%vw;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.295);
+    width: 90%vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    
+}
+
+img#iphone {display: block}
+
+img#itv {display: none;}
+
+img#itablet {display: none;}
+
+img#iprint {display: none;}
+
+img#ipc { display: none;}
